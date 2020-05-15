@@ -14,6 +14,6 @@ chmod 755 ~/local/share/check_mk/notifications/notify_smseagle.py
 omd reload
 ```
 
-Further details about Check_MK and SMSEacle:  
+Further details about Check_MK and SMSEagle:  
 - https://checkmk.com/cms_notifications.html
 - https://www.smseagle.eu/api/
