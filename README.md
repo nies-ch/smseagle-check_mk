@@ -1,4 +1,4 @@
-# smseagle-check_mk
+# Check_MK with SMS Notification using SMSEagle
 Plugin for Check_MK SMS alerts &amp; notifications with use of SMSEagle device
 
 The following Python script can be used for Check_MK to send SMS alerts using SMSEagle devices. Just copy it as site user into the folder ~/local/share/check_mk/notifications and make it executeable. 
