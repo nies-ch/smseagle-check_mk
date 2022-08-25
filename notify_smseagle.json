@@ -1,0 +1,15 @@
+{
+  "eagle_hosts": [
+    { "api_send_sms": "http://1.2.3.4/http_api/send_sms", "login": "eagleuser", "pass": "********" },
+    { "api_send_sms": "http://1.2.3.5/http_api/send_sms", "access_token": "**********************" }
+  ],
+  "eagle_timeout": 10,
+  "phone_regex": "^(\\+|00)\\d+$",
+  "mail_from" : "checkmk@example.com",
+  "mail_to"   : "monitoring@example.com",
+  "mail_hosts": [
+    { "host": "localhost", "port": 25 },
+    { "host": "smtp1.example.com", "port": 25 },
+    { "host": "smtp2.example.com", "port": 25 }
+  ]
+}
